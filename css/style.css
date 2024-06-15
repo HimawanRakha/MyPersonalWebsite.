@@ -191,14 +191,22 @@ body {
 .Pendidikan,
 .Prestasi,
 .Organisasi h2,
-.dokumentasi h2 {
+.dokumentasi h2,
+.Projects h2 {
   padding: 8rem 7% 1.4rem;
 }
 .About h2,
 .Pendidikan h2,
 .Prestasi h2,
 .Organisasi h2,
-.dokumentasi h2 {
+.dokumentasi h2,
+.Projects h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.Projects h2 {
   text-align: center;
   font-size: 3rem;
   margin: auto;
@@ -224,7 +232,7 @@ body {
 }
 .About .row .bio img {
   border-radius: 10%;
-  width: 50%;
+  width: 30%;
   margin: auto;
 }
 .About .row .bio {
@@ -243,13 +251,14 @@ body {
   margin-top: 5rem;
   justify-content: center;
   padding-bottom: 5rem;
+  font-size: 1rem;
 }
 .Pendidikan .row .card {
   text-align: center;
 }
 .Pendidikan .row .card img {
   border-radius: 50%;
-  width: 80%;
+  width: 60%;
   margin-right: 2rem;
   margin-left: 2rem;
   margin-top: 3rem;
@@ -356,6 +365,12 @@ footer .credit a {
   background-size: cover;
   background-position: center;
 }
+.Projects {
+  background-image: url("../img/Desain\ tanpa\ judul\ \(7\).png");
+  background-size: cover;
+  background-position: center;
+}
+
 .Organisasi .row {
   display: flex;
   flex-wrap: wrap;
@@ -376,6 +391,65 @@ footer .credit a {
 .Organisasi .row {
   text-align: center;
 }
+
+.Projects .row {
+  text-align: center;
+}
+
+.Projects .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.Projects .row .pro img {
+  border-radius: 10%;
+  width: 15%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.Projects .row .pro .image1 {
+  width: 20%;
+}
+
+.Projects .row .pro p {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
 .Pendidikan .row {
   text-align: center;
+}
+/* navbar search */
+.navbar .search-form {
+  position: absolute;
+  top: 100%;
+  right: 7%;
+  background-color: white;
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.navbar .search-form input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color: black;
+  padding: 1rem;
+}
+
+.navbar .search-form label {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: var(--bg);
+}
+.navbar .search-form .active {
+  transform: scaleY(1);
 }
