@@ -142,6 +142,7 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
+  box-sizing: border-box;
 }
 .hero::after {
   content: "";
@@ -218,6 +219,7 @@ body {
   background-image: url("../img/Desain\ tanpa\ judul\ \(1\).png");
   background-size: cover;
   background-position: center;
+  box-sizing: border-box;
 }
 .Pendidikan {
   background-image: url("../img/Desain\ tanpa\ judul\ \(2\).png");
@@ -291,7 +293,7 @@ body {
   flex-wrap: wrap;
   margin-top: 5rem;
   justify-content: center;
-  padding-bottom: 20rem;
+  padding-bottom: 5rem;
 }
 .Organisasi .row .orgjudul {
   text-align: center;
@@ -377,7 +379,7 @@ footer .credit a {
   flex-wrap: wrap;
   margin-top: 5rem;
   justify-content: center;
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
 }
 .Organisasi .row .orgjudul {
   text-align: center;
